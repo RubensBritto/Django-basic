@@ -1,0 +1,8 @@
+Se estiver no ubuntu
+
+sudo apt-get install libmysqlclient-dev python3-dev --> no terminal geral
+pip install MySQl --> na maquina virtual
+
+SEMPRE QUE CRIAR UM MODELO PRECISA CRIAR AS MIGRATIONS
+-python manage.py makemigrations
+-python manage.py migrate
